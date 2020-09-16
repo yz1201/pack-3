@@ -1,0 +1,10 @@
+server:
+  port: 30999
+
+spring:
+  application:
+    name: api-passenger
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:40999/eureka/
