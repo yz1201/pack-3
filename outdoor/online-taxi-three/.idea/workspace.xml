@@ -20,38 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9372e44d-6e54-43e9-a985-7590cda98ef8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api-passenger/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/cn/dbdj1201/apipassenger/ApiPassengerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-passenger/src/test/java/cn/dbdj1201/apipassenger/ApiPassengerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka/src/main/java/cn/dbdj1201/cloudeureka/CloudEurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka/src/main/java/cn/dbdj1201/cloudeureka/listen/TestEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka/src/test/java/cn/dbdj1201/cloudeureka/CloudEurekaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-nacos/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../init-component/CAR.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../init-component/init.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../init-component/init.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../init-component/init.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../init-component/system.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../init-component/system.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../init-component/system.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka/src/main/java/cn/dbdj1201/cloudeureka/listen/TestEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka/src/main/java/cn/dbdj1201/cloudeureka/listen/TestEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600227198541</updated>
       <workItem from="1600227212483" duration="11057000" />
+      <workItem from="1600302681643" duration="18642000" />
     </task>
     <servers />
   </component>
@@ -191,6 +163,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600236162550">
@@ -249,40 +222,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600227280954" />
-    <state x="681" y="261" width="564" height="524" key="StructurePopup" timestamp="1600244330499">
+    <state x="681" y="261" width="564" height="524" key="StructurePopup" timestamp="1600331557443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="261" width="564" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1600244330499" />
+    <state x="681" y="261" width="564" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1600331557443" />
     <state x="466" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600244416346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="466" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1600244416346" />
-    <state width="3641" height="447" key="documentation.popup.size" timestamp="1600242820720">
+    <state width="3641" height="447" key="documentation.popup.size" timestamp="1600330045770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="3641" height="447" key="documentation.popup.size/0.0.1920.1040@0.0.1920.1040" timestamp="1600242820720" />
+    <state width="3641" height="447" key="documentation.popup.size/0.0.1920.1040@0.0.1920.1040" timestamp="1600330045770" />
     <state x="414" y="354" width="1251" height="556" key="new project wizard" timestamp="1600236700827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="354" width="1251" height="556" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1600236700827" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600243158497">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1600330508332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600243158497" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600330508332" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600330935889">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600330935889" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.9.25/eureka-core-1.9.25-sources.jar!/com/netflix/eureka/EurekaBootStrap.java</url>
-          <line>210</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.9.25/eureka-core-1.9.25-sources.jar!/com/netflix/eureka/EurekaBootStrap.java</url>
-          <line>147</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.9.25/eureka-core-1.9.25-sources.jar!/com/netflix/eureka/EurekaBootStrap.java</url>
           <line>113</line>

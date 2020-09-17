@@ -5,19 +5,20 @@ spring:
     name: cloud-eureka
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    register-with-eureka: true
+    fetch-registry: true
     service-url:
-#      defaultZone: http://localhost:40999/eureka/,http://localhost:41000/eureka/,http://localhost:41001/eureka/
+#      defaultZone: http://eureka-40999:40999/eureka/,http://eureka-41000:41000/eureka/,http://eureka-41001:41001/eureka/
       defaultZone: http://localhost:40999/eureka/
-  #eurekaÓÅ»¯·½·¨
+#  eureka é…ç½®ä¼˜åŒ–,ä»æºç çœ‹èµ·
   server:
     enable-self-preservation: false
     renewal-percent-threshold: 0.85
 #    eviction-interval-timer-in-ms: 10000
     use-read-only-response-cache: false
 #    response-cache-update-interval-ms: 1000
-
+  instance:
+    prefer-ip-address: true
 ---
 spring:
   profiles: 40999
