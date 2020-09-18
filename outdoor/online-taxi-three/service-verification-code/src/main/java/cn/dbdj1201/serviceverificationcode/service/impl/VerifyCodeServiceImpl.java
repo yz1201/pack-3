@@ -61,11 +61,11 @@ public class VerifyCodeServiceImpl implements IVerifyCodeService {
     private boolean shouldLimitAtLastMin(String minKey) {
         int minTimes = this.redisUtils.get(minKey) == null ? 0 : (int) this.redisUtils.get(minKey);
 
-        if (minTimes > DEFAULT_MIN_THRESHOLD) {
+        if (minTimes >= DEFAULT_MIN_THRESHOLD) {
             return true;
         } else {
             if (minTimes == 0) {
-                this.redisUtils.set(minKey, 1, 600);
+                this.redisUtils.set(minKey, 1, 60);
             } else {
                 long expire = this.redisUtils.getExpire(minKey);
                 expire = expire <= 0 ? 0 : expire;
@@ -77,7 +77,8 @@ public class VerifyCodeServiceImpl implements IVerifyCodeService {
 
     private boolean shouldLimitAtLastHour(String hourKey) {
         int hourTimes = this.redisUtils.get(hourKey) == null ? 0 : (int) this.redisUtils.get(hourKey);
-        if (hourTimes > DEFAULT_HOUR_THRESHOLD) {
+        if (hourTimes >= DEFAULT_HOUR_THRESHOLD) {
+            this.redisUtils.set(hourKey,0,0);
             return true;
         } else {
             if (hourTimes == 0) {
